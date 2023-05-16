@@ -1,0 +1,141 @@
+.dropzone {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.image-container {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  width: 1600px;
+  height: 1000px;
+}
+
+.image-section {
+  position: relative;
+}
+
+.image-slider {
+  display: block;
+  width: 100%;
+}
+
+.canvas-container {
+  position: relative;
+}
+
+.annotation-canvas,
+.annotation-canvas-hidden,
+.image-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.annotation-canvas-hidden {
+  display: none;
+}
+
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.view-setting {
+  border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 250px;
+  left: 1350px;
+}
+
+.parameter-setting {
+  border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 500px;
+  text-align: center;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 500px;
+  left: 1350px;
+}
+
+.settings-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.erase-button {
+  border: 0;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #A4C6FF
+}
+
+.custom-colors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-color {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.color-button {
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.delete-color {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.color-picker-container {
+  position: absolute;
+  z-index: 2;
+}
+
+.color-picker-overlay {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.add-color-button {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 210px;
+}
+
+.export-button {
+  position: absolute;
+  top: 1100px;
+  left: 1490px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 80px;
+  border: 3px royalblue;
+  border-radius: 10px;
+  background: lightskyblue;
+}
